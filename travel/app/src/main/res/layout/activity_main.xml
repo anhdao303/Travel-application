@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="378dp"
+            android:layout_height="322dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txtScreen1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's enjoy a new world!"
+            android:textColor="@color/black"
+            android:fontFamily="@font/josefinsansbold"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtScreen1"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ptsansbold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="Sign in" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnSignIn"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ptsansbold"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="Sign up" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
